@@ -1,0 +1,16 @@
+Bash Commands:
+
+-mkdir: stands for make directory and used to create new directory.
+we can also create multiple sub-folders by using mkdir -p parent folder/subfolder1/subfolder2
+ 
+-ls: mainly used to  list the files or the directories, we can sort our list by adding certain syntax to it like:
+ls -l (detailed list)  
+ls -t (by file time)
+ls -s (by file size)
+ls -r (reverse the sorting)
+as we can use them all with one syntax
+ls -lsr (show all files sorted by file size with the largest files at the bottom)
+
+-mv: used to move or rename the directories.
+
+-pwd: this print the current and exact directory we work in.
