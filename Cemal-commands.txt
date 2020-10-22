@@ -1,0 +1,36 @@
+Below you can find some important CLI-GIT Commands
+
+pwd: prints the working directory
+
+cd: changes directory
+
+ls: lists folder and files
+
+ls -a: you can see hidden folders and files
+
+mkdir: cretares a directory
+
+touch: creates an empty file
+
+code . : opens Visual Studio Code in teh current directory
+
+cat: prints content of a (text) file
+
+rm: removes a file (or directory)
+
+
+git init: creates a repository
+
+git add <filename> or .  :to add files to a new commit
+
+git commit -m "<your commit message>": commits the added files
+
+git checkout --<filename>: resets a file to how it was in the last commit
+
+git log: shows all commits
+
+git log -p: shows all commits and the content of the files
+
+git push: uploads commits to a remote/online repository
+
+
