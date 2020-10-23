@@ -1,0 +1,23 @@
+Hier are some lists of the basic commandline options:
+
+pwd: print working directory
+
+cd: change directory
+
+mkdir: create a new directory
+
+ls: list contents in the directory
+
+rm: delet file or folder 
+
+mv: move directory
+
+touch: creat new file
+
+cat: display the contents of a file
+
+git init: initialize a repository
+
+git status: to see the changes e.g if it is tracked or not
+
+git add: to add a file to commit
