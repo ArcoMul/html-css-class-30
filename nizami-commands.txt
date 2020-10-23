@@ -1,1 +1,10 @@
- my fave git commands
+
+git init will create a new local GIT repository.
+
+git clone is used to copy a repository.
+
+git commit will create a snapshot of the changes and save it to the git directory.
+
+git status displays the list of changed files together with the files that are yet to be staged or committed.
+
+git push is used to send local commits to the master branch of the remote repository
