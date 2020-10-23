@@ -1,0 +1,21 @@
+HEllo this is a shor exeplination about some of the command that I use in the CLI:
+
+cd: change diretory, I use this command to move between the directories on my computer.
+
+mkidr: creat a directory, I use this command to creat a new directories.
+
+touch: creat a file, I use this command to creat a new empty file.
+
+ls: list the files in the cuurent directory
+
+vi (file name): I use this to edite a text file on git bash
+
+cat (filename); I use this to show the content of a file
+
+git init : creat a repository 
+
+git add : to add the file to the commit
+
+git commit -m "here I put the message" : I use this to commit the added files (as Arco said: I close the box and I put a stamp on it. it is a good metaphor Arco)
+
+/***** Those are the most commands that I use everyday since I started studying in tha amazing HYF *****/
