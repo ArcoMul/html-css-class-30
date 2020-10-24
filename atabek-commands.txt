@@ -2,7 +2,7 @@ Hey you! Yes, you! Alone and feeling bored? Nothing excites you anymore? Then yo
 
 You can be whoever you want to be in this world! A shiny picky front-elf? Please! A tough back-dwarf? It is your call! Maybe a mix of both - a powerfull-stack wizard?! No problem! Welcome!
 
-	First we should create your land. For that you can either start your own new one, typing:
+First we should create your land. For that you can either start your own new one, typing:
 	
 	~ git init <your land’s name> 
 
@@ -38,7 +38,7 @@ Right away or after adding some more things, you need to type:
 
 	~ git commit -m “hooray, I have created 2 barracks and 10 infantry units”
 
-to	save them.
+to save them.
 
 You can see all your savings by:
 
@@ -52,9 +52,9 @@ If you want to test a new feature of your hero or want to go to some dangerous q
 
 	~ git branch <let’s try it>
 
-that creates your own game. To switch to it type:
+To switch to it type:
 
-	~ git checkout <your own story line>
+	~ git checkout <let's try it>
 
 When you want to share all what you’ve gained with others, you do:
 
