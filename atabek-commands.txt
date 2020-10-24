@@ -62,6 +62,9 @@ When you want to share all what you’ve gained with others, you do:
 
 Cool game, isn’t it?! Good luck in your progress! 
 
+P.S. One more thing, don't forget to see what your allies are up to:
+
+	~ git pull
 
 
 
