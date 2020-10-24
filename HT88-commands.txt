@@ -1,0 +1,8 @@
+git init 
+    - it creates a repo in a folrder to store and track changes to a project 
+
+git add
+    - it adds files/changes to a created repo 
+
+git commit
+    - it 'seals' the cached files into a verion of a project
