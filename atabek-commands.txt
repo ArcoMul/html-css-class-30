@@ -1,0 +1,74 @@
+Hey you! Yes, you! Alone and feeling bored? Nothing excites you anymore? Then you are at the right place! Let me take you on a tour to a magical land called GitCraft! 
+
+You can be whoever you want to be in this world! A shiny picky front-elf? Please! A tough back-dwarf? It is your call! Maybe a mix of both - a powerfull-stack wizard?! No problem! Welcome!
+
+	First we should create your land. For that you can either start your own new one, typing:
+	
+	~ git init <your land’s name> 
+
+Or join to an existing craft union by typing:
+
+	~ git clone <guild’s path>
+
+We need a household in our land:
+
+	~ mkdir <household’s name>
+
+We need farms, stores and barracks:
+
+	~ touch farm.txt store.txt barrack.txt
+
+We wanna see how much of provision we have in our store:
+
+	~ cat store.txt
+
+If we want to add a couple of new warriors to the barrack, we can use: 
+
+	~ (echo “cavalry” ; echo “catapult”) >> barrack.txt
+
+You can check the current status of your land. Just go with:
+
+	~ git status
+
+At some point of the game you want to save some or all (-A) stuff that you possess. First you have to add them:
+
+	~ git add <what you want>
+
+Right away or after adding some more things, you need to type:
+
+	~ git commit -m “hooray, I have created 2 barracks and 10 infantry units”
+
+to	save them.
+
+You can see all your savings by:
+
+	~ git log
+
+If you lose the game at some point and want to go to a particular saving:
+
+	~ git reset
+
+If you want to test a new feature of your hero or want to go to some dangerous quest:
+
+	~ git branch <let’s try it>
+
+that creates your own game. To switch to it type:
+
+	~ git checkout <your own story line>
+
+When you want to share all what you’ve gained with others, you do:
+
+	~ git push
+
+Cool game, isn’t it?! Good luck in your progress! 
+
+
+
+
+
+
+
+
+
+
+  
