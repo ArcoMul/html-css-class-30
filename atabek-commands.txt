@@ -4,7 +4,7 @@ You can be whoever you want to be in this world! A shiny picky front-elf? Please
 
 First we should create your land. For that you can either start your own new one, typing:
 	
-	~ git init <your land’s name> 
+	~ git init
 
 Or join to an existing craft union by typing:
 
