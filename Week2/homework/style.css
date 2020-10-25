@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: auto;
+  border: 2px solid olive;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins' sans-serif;
+  font-size: 80px;
+  background: olive;
+}
+h2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+}
+#grid-floats .grid-item:hover {
+  background-color: khaki;
+}
+#grid-flex .grid-item:hover {
+  background-color: khaki;
+}
+
+h3 {
+  text-align: center;
+  padding: 15px;
+  text-decoration: underline;
+}
+#grid-floats {
+  margin: 0;
+  overflow: auto;
+}
+img {
+  width: 100%;
+}
+
+#grid-floats .grid-item {
+  width: 25%;
+  float: left;
+  height: 600px;
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+#grid-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#grid-flex .grid-item {
+  flex-basis: 25%;
+  padding: 10px;
+}
+@media all and (max-width: 1024px) {
+  #grid-flex .grid-item {
+    flex-basis: 25%;
+  }
+  #grid-floats .grid-item {
+    width: 25%;
+  }
+}
+@media all and (max-width: 1024px) {
+  #grid-flex .grid-item {
+    flex-basis: 33.333%;
+  }
+  #grid-floats .grid-item {
+    width: 33.33%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #grid-flex .grid-item {
+    flex-basis: 100%;
+  }
+  #grid-floats .grid-item {
+    width: 100%;
+  }
+}
