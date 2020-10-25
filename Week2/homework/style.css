@@ -3,28 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   margin: auto;
   border: 2px solid olive;
 }
+
+@font-face {
+  font-family: 'poppins';
+  src: url('Poppins-Black.ttf');
+}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'poppins';
   font-size: 80px;
   background: olive;
 }
+
 h2 {
   text-align: center;
   padding: 30px;
   font-size: 50px;
-}
-#grid-floats .grid-item:hover {
-  background-color: khaki;
-}
-#grid-flex .grid-item:hover {
-  background-color: khaki;
 }
 
 h3 {
@@ -32,12 +34,10 @@ h3 {
   padding: 15px;
   text-decoration: underline;
 }
+
 #grid-floats {
   margin: 0;
   overflow: auto;
-}
-img {
-  width: 100%;
 }
 
 #grid-floats .grid-item {
@@ -45,18 +45,41 @@ img {
   float: left;
   height: 600px;
   padding: 10px;
+  transition-property: background; border-radius;
+  transition-duration: 1s;
 }
+
+#grid-floats .grid-item:hover {
+  background-color: khaki;
+  border-radius: 10%;
+}
+
+img {
+  width: 100%;
+}
+
 li {
   list-style: none;
 }
+
 #grid-flex {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
+
 #grid-flex .grid-item {
   flex-basis: 25%;
   padding: 10px;
+  transition-property: background; border-radius;
+  transition-duration: 1s;
 }
+
+#grid-flex .grid-item:hover {
+  background-color: khaki;
+  border-radius: 10%;
+}
+
 @media all and (max-width: 1024px) {
   #grid-flex .grid-item {
     flex-basis: 25%;
@@ -65,6 +88,7 @@ li {
     width: 25%;
   }
 }
+
 @media all and (max-width: 1024px) {
   #grid-flex .grid-item {
     flex-basis: 33.333%;
