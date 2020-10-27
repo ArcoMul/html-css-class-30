@@ -1,0 +1,8 @@
+git clone https/
+touch file.txt or ......
+git add file
+git status 
+git commit -m "name"
+git status
+git push 
+done 
