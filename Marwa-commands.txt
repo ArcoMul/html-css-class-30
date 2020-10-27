@@ -1,0 +1,25 @@
+Bash Commands:
+
+ls :to list all folders and files in the current directory.
+ls -a : to list all folders and files (visible or hidden) the current directory.
+ls -ald :to list just hidden folders or files.
+
+mv:to move or rename the directories.
+
+clear :to clear everything.
+
+
+GIT Commands:
+
+git init :to create a git repository.
+
+git add :to add file to a new commit.
+
+git add . :to add all files and folders to a new commit.
+
+git commit -m "Commit Message" :to commit the file with a text message.
+
+git push :to upload commits to the repository
+
+
+
