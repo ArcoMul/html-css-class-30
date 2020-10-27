@@ -1,0 +1,28 @@
+pwd: It is a command line utility for printing the current working directory. Every time I use it to be sure where am I!
+
+mk-dir: this command creates a new folder. In addition, you can create a folder with a certain path. If you want it, you can use this command: mkdir-p a/b/c
+
+cd: It is the most useful command for me. We change our directory with this command and it feels like you are walking inside the computer!
+
+ls: With this command you can see the inside of the folder. This command make a list of directory. There is a trick for you! If you would like to see also hidden files you can use ls-a command!
+
+touch: We can use touch command to create an empty file. 
+
+mv: First I saw this command I didn't understand what is it! But it is also one of useful command for me. With mv command you can move files or rename files. Isn't it excited? :)
+
+code . :If you are a web developer you should use a text editor to code. With this command you can open your text editor easily! For example, when I use this command, VS Code opens immediately.
+
+history: If you are a learner and forgot everything easily like me, you love the history command! With this command, it can be showed  a list of all the recently used command. With this way, you can repeat all the commands and exercises more easily!
+
+clear: If whole screen is full of typing and you are confused just use the clear command! It will clear the page of terminal and you can write more and more commands! 
+
+Git Commands
+
+git init: It creates a new local repository. If you can't see the repository on he place which it should be in, don't worry! Just check all hidden files! 
+
+git add <filename> : With this command you can add a file to staging.
+
+git add . : with this command you can add all the files to staging. It is very practical if you add more than one files!
+
+git commit -m "Commit message" : this command takes the staged file and commits it to the project history. In addition, you can write your messages in this command!
+  
