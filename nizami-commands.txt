@@ -1,10 +1,18 @@
 
-git init will create a new local GIT repository.
+git init - will create a new local GIT repository.
 
-git clone is used to copy a repository.
+git clone - is used to copy a repository.
 
-git commit will create a snapshot of the changes and save it to the git directory.
+git commit -m - will create a snapshot of the changes and save it to the git directory.
 
-git status displays the list of changed files together with the files that are yet to be staged or committed.
+git status - displays the list of changed files together with the files that are yet to be staged or committed.
 
 git push is used to send local commits to the master branch of the remote repository
+
+Git add - adds one or more to the staging area
+
+Git diff - shows the file differences which are not yet staged.
+
+Git rm - deletes the file from your working directory and stages the deletion.
+
+Git log - used to list the version history for the current branch.
