@@ -1,0 +1,72 @@
+Here is the Bash commands
+
+
+Pwd             Print working directory
+
+
+CD              change Directory
+
+
+LS              list files and folder
+
+
+CD..            Back to the parent folder 
+CD../..   
+
+
+
+CLEAR           clear everything
+
+
+Mkdir           create a folder
+
+
+TOUCH  commandlinenotes.txt  ( create txt)
+
+
+Code.          Open VS code in the current
+
+
+
+Code hackyourfuture  (directly open folder)
+
+
+Mv <what> <to where>
+(moves a file (or directory) or rename a file
+
+
+Cat filename    (open file content)
+
+
+Cp              copy a file(directory)
+
+
+Rm              remove file or directory
+
+
+
+
+
+git init        Create empty Git repo in specified directory. 
+
+
+	
+
+git clone       Clone repo located at <repo> onto local machine. 
+	
+	
+	
+git status      List  files 
+
+	
+
+git log         Display the entire commit history
+	
+	
+	
+
+git log -p      Display the full diff of each commit.
+	
+	
+
+
